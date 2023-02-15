@@ -6,10 +6,10 @@
     git add .
     git commit -m "first commit"
     git branch -M main
-    git remote add origin https://github.com/joabediias/linktree    
+    git remote add origin https://github.com/joabediias/linktree_rjmodas   
     git push -u origin main
 
  PUSH AN EXISTING REPOSITORY FROM THE COMAND LINE
-    git remote add origin https://github.com/joabediias/linktree
+    git remote add origin https://github.com/joabediias/linktree_rjmodas
     git branch -M main
     git push -u origin main
