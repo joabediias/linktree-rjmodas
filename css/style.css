@@ -3,6 +3,7 @@
     --second-color: #493349;
     --font-family: BioRhyme;
     --image-background: url("../assets/background.png");
+    --vh: url("../scripts/dimension.js");
 }
 
 body,
@@ -17,7 +18,7 @@ body {
     background-image: var(--image-background);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;  
+    height: calc(var(--vh, 1vh) * 100); 
   
     /*alinhando*/
     display:flex;
@@ -27,7 +28,6 @@ body {
 
 .root {
     position: relative;
-    min-width: 100%;
     padding: .5rem 1rem;
     border-radius: .2rem;
 }
